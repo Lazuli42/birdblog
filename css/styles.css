@@ -1,0 +1,58 @@
+body {
+  background-image: url("../img/wallpaper.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  text-shadow:
+  -1px 0 #ffffff,
+  0 1px #ffffff,
+  1px 0 #ffffff,
+  0 -1px #ffffff;
+}
+
+.about {
+  border: 2px solid;
+  background-color: #80bdff;
+  display: inline-block;
+  width: 30%;
+  margin-left: 10%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.about img {
+  border-radius: 50%;
+  border: 1px solid;
+  border-color: white;
+  width: 95%;
+}
+
+.posts {
+  width: 80%;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+.post {
+  border: 2px solid;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding: 5px;
+  display: inline-block;
+  background-color: #e6f2ff;
+}
+
+.post img {
+  width:45%;
+  float: right;
+  border: 1px solid;
+}
+
+.post p {
+  width: 50%;
+  float: left;
+  margin-left: 10px;
+}
